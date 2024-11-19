@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JHEIDEY❤🥺🌹😘</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">JHEIDEY#18❤🥺🌹😘</div>
+        <div class="menu-icon" id="menu-icon">
+            <span>&#9776;</span> <!-- Icono de hamburguesa -->
+        </div>
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Album</a>
+            <a href="#acerca">Acerca de</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h1>❤🌹FELIZ ANIVERSARIO, MI CHINITA BELLA🌹❤</h1>
+        <p>Eres lo más importante, amor mío. Mi esposita te amo tanto y te dedico esto cariño.❤🥺🌹😘</p>
+    </section>
+
+    <!-- Audio -->
+    <center>
+        <audio id="audio" controls autoplay loop>
+            <source src="musica/1.mp3" type="audio/mp3">
+            Tu navegador no soporta el formato de audio.
+        </audio>
+    </center>
+    
+    <!-- Sección de Productos -->
+    <section id="productos" class="productos">
+        <h2>❤🥺🌹😘ALBUM JHEIDEY❤🥺🌹😘</h2>
+        <div class="productos-grid">
+            <div class="producto-item">
+                <img src="img/1.jpg" alt="Producto 1">
+                <h3>❤🌹POEMA 1🌹❤</h3>
+                <p>Eres mi sol, mi luna y mi estrella, en tu amor, encuentro mi vida bella.</p>
+            </div>
+
+            <!-- Producto 2 (con video interactivo) -->
+            <div class="producto-item video-item">
+                <div class="video-container">
+                    <iframe width="100%" height="315" src="video/1.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3>❤🌹POEMA 2🌹❤</h3>
+                <p>Tus ojos me hablan sin decir palabra, y en tu sonrisa, mi alma se abraza.</p>
+            </div>
+
+            <div class="producto-item">
+                <img src="img/2.jpg" alt="Producto 3">
+                <h3>❤🌹POEMA 3🌹❤</h3>
+                <p>A tu lado, el tiempo no pasa, en tu amor, mi corazón se abraza.</p>
+            </div>
+        </div>
+        <br>
+        <div class="productos-grid">
+            <div class="producto-item">
+                <img src="img/7.jpg" alt="Producto 1">
+                <h3>❤🌹POEMA 4🌹❤</h3>
+                <p>Tu amor es mi refugio y mi paz, mi vida sin ti no tendría compás.</p>
+            </div>
+
+            <!-- Producto 2 (con video interactivo) -->
+            <div class="producto-item video-item">
+                <div class="video-container">
+                    <iframe width="100%" height="315" src="video/2.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3>❤🌹POEMA 5🌹❤</h3>
+                <p>Eres mi todo, mi razón de vivir, con solo mirarte, me siento feliz.</p>
+            </div>
+
+            <div class="producto-item">
+                <img src="img/4.jpg" alt="Producto 3">
+                <h3>❤🌹POEMA 6🌹❤</h3>
+                <p>Tus ojos chinitos, dos estrellas brillantes, refugian mi alma, me hacen soñante. Con cada mirada, mi mundo se enciende, en ellos mi amor por ti siempre se extiende.</p>
+            </div>
+        </div>
+        <br>
+        <div class="productos-grid">
+            <div class="producto-item">
+                <img src="img/5.jpg" alt="Producto 1">
+                <h3>❤🌹POEMA 7🌹❤</h3>
+                <p>Eres como una flor blanca en su esplendor, pureza y belleza que inspiran amor. Tu delicadeza me envuelve en calma, y tu esencia florece en mi alma.</p>
+            </div>
+
+            <div class="producto-item">
+                <img src="img/6.jpg" alt="Producto 3">
+                <h3>❤🌹POEMA 8🌹❤</h3>
+                <p>Mi esposita Deysi, mi razón y mi sol, tu amor me envuelve, me llena el corazón. Eres mi calma, mi alegría, mi paz, a tu lado, todo lo bueno siempre me das.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 JHEIDEY#18❤🥺🌹😘. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script para el menú hamburguesa -->
+    <script>
+        // Selecciona el icono de menú y el nav
+        const menuIcon = document.getElementById('menu-icon');
+        const nav = document.querySelector('header nav');
+
+        // Añade un evento al hacer clic en el icono del menú
+        menuIcon.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            menuIcon.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>
